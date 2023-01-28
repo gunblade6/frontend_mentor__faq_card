@@ -1,0 +1,148 @@
+.attribution {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: white;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--g-soft-blue);
+  font-size: 12px;
+  background: linear-gradient(
+    0deg,
+    var(--g-soft-blue) 0%,
+    var(--g-soft-violet) 100%
+  );
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+:root {
+  --dark-sat-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --g-soft-violet: hsl(273, 75%, 66%);
+  --g-soft-blue: hsl(240, 73%, 65%);
+  --dark-gray-blue: hsl(237, 12%, 33%);
+  --gray-blue: hsl(240, 6%, 50%);
+  --light-gray-blue: hsl(240, 5%, 91%);
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  background-color: white;
+  display: flex;
+  width: 70rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  overflow: hidden;
+  height: 550px;
+}
+.card .heading_title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.card .quistions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* gap: 2rem; */
+}
+.card .quistion {
+  padding: 1rem 0 0.5rem;
+  border-bottom: 1px solid var(--light-gray-blue);
+  position: relative;
+  transition: 400ms ease;
+  -webkit-transition: 400ms ease;
+  -moz-transition: 400ms ease;
+  -ms-transition: 400ms ease;
+  overflow: hidden;
+  -o-transition: 400ms ease;
+  cursor: pointer;
+}
+.card .quistion.active {
+  padding-bottom: 50px;
+}
+.quistion img {
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+}
+.card .quistion.active img {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+.card .quistion.active p {
+  z-index: 1;
+  opacity: 1;
+  bottom: 1.2rem;
+}
+.quistion p {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  bottom: -2rem;
+  transition: 400ms ease;
+  -webkit-transition: 400ms ease;
+  -moz-transition: 400ms ease;
+  -ms-transition: 400ms ease;
+  -o-transition: 400ms ease;
+}
+.card .quistion.active h3 {
+  font-weight: 700;
+}
+
+.card .quistions_title {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 2rem;
+}
+.card .quistions_title h3 {
+  font-weight: 400;
+}
+.card .image-section {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.card .image-section img {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.card .content {
+  padding: 4rem;
+  width: 50%;
+}
