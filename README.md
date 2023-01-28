@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/faqaccordioncard-uQNWA_k47_)
-- Live Site URL: [Live](https://www.frontend-mentor-faq.netlify.app)
+- Live Site URL: [Live](https://frontend-mentor-faq.netlify.app/)
 
 ## My process
 
