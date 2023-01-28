@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://frontendmentor-faq.netlify.app)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faqaccordioncard-uQNWA_k47_)
+- Live Site URL: [Live](frontend-mentor-faq.netlify.app)
 
 ## My process
 
