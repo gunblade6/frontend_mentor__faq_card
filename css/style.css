@@ -175,7 +175,16 @@ main {
 .mobile {
   display: none;
 }
-@media (max-width: 1440px) {
+@media(max-width:1250px) {
+  .card {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+}
+@media (max-width: 992px) {
   .mobile {
     display: block;
   }
