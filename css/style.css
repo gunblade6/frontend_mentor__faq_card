@@ -172,3 +172,63 @@ main {
   width: 200px;
   z-index: 3030;
 }
+.mobile {
+  display: none;
+}
+@media (max-width: 1440px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .card .heading_title {
+    font-size: 2rem !important;
+    margin-bottom: 1rem;
+  }
+  .card {
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    padding:6rem 2rem 2rem !important;
+    font-size: 0.5rem;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+  .card .content {
+    width: 100%;
+    padding: 0;
+  }
+  .card .image-section img:first-child {
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: -50px;
+  }
+  .card .image-section img:last-child {
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: -110px !important;
+  }
+  .box img {
+    width: 100px !important;
+    position: absolute;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -moz-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    -o-transform: translate(-50%, -50%) !important;
+}
+.image-section * {
+  overflow: visible !important;
+}
+.attribution {
+  font-size: 10px;
+  margin: 0;
+}
+}
