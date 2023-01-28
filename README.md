@@ -69,7 +69,7 @@ allQuistions.forEach((q) => {
 
 ## Author
 
-- Website - [Add your name here](https://www.mohamed-dev.netlify.app)
+- Website - [Mohamed](https://www.mohamed-dev.netlify.app)
 - Frontend Mentor - [@midoashraf010](https://www.frontendmentor.io/profile/midoashraf010)
 
 ## Acknowledgments
