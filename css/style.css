@@ -109,7 +109,7 @@ main {
   -ms-transition: 400ms ease;
   -o-transition: 400ms ease;
 }
-.card .quistion.active h3 {
+.card .quistion.active h2 {
   font-weight: 700;
 }
 
@@ -121,7 +121,7 @@ main {
   margin-bottom: 15px;
   gap: 2rem;
 }
-.card .quistions_title h3 {
+.card .quistions_title h2 {
   font-weight: 400;
 }
 .card .image-section {
